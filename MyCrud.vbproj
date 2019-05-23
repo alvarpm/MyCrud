@@ -122,6 +122,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormaPrueba.resx">
+      <DependentUpon>FormaPrueba.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmAcerca.resx">
       <DependentUpon>FrmAcerca.vb</DependentUpon>
     </EmbeddedResource>
