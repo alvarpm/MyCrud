@@ -125,7 +125,7 @@ Public Class FrmUsuarios
                 Cmbgenero.Text = row("Genero").ToString
             Next
         Else
-            MsgBox(" ID " & txtID.Text & " no existe en la base de datos")
+            MsgBox(" ID " & txtID.Text & " no existe en la base de datos SQL")
         End If
 
         SQLiteCon.Close()
