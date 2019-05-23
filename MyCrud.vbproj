@@ -82,6 +82,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormaPrueba.Designer.vb">
+      <DependentUpon>FormaPrueba.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormaPrueba.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmAcerca.Designer.vb">
       <DependentUpon>FrmAcerca.vb</DependentUpon>
     </Compile>
